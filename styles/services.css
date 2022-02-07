@@ -1,0 +1,158 @@
+/* header */
+.nav__link {
+  color: #424242;
+}
+
+
+/* btns */
+.btns__item {
+  padding: 18px 55px;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 600;
+  color: #424242;
+  outline: 2px solid #AEA38B;
+  transition: .3s;
+}
+
+.btns__item:hover {
+  background: #AEA38B;
+}
+
+.btns__item:not(:last-child) {
+  margin-right: 40px;
+}
+
+/* service */
+
+.service__container {
+  margin-bottom: 140px;
+}
+
+.service__heading {
+  margin-top: 58px;
+}
+
+.service__list {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.service__item {
+  display: flex;
+  flex-direction: column;
+  align-items:  center;
+  width: 360px;
+}
+
+.srvice__item-pic {
+  width: 360px;
+  height: 220px;
+  margin-bottom: 20px;
+}
+
+.service__item-info {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #424242;
+}
+
+.service__item-price {
+  font-size: 28px;
+  line-height: 1.5;
+  font-weight: 400;
+  color:#424242;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+@media(max-width: 767px) {
+  .nav__link {
+    color: #ffffff;
+  }
+}
+@media(max-width: 375px) {
+  .btns__container  {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+
+  .btns__item {
+    padding: 15px 45px;
+    font-size: 14px;
+  }
+
+  /* services */
+  .service__container {
+    margin-bottom: 100px;
+  }
+
+  .service__heading {
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+
+  .service__list {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .service__item  {
+    width: 100%;
+    align-items: flex-start;
+    padding-top: 40px;
+    margin-right: 0;
+  }
+
+  .service__item:not(:last-child) {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #AEA38B;
+  }
+
+  .service__item:first-child {
+    padding-top: 0;
+  }
+
+  .srvice__item-pic {
+    height: 200px;
+  }
+
+  .service__item-info {
+    font-size: 14px;
+    text-align: start;
+    margin-bottom: 10px;
+  }
+
+  .service__item-price {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+
+  .service__item-btn {
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+  }
+
+}
+
+@media(max-width: 767px) {
+  .btns__container  {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+  }
+
+  .btns__item {
+    padding: 15px 45px;
+    font-size: 14px;
+  }
+}
+

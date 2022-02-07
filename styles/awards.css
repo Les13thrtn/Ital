@@ -1,0 +1,131 @@
+/* header */
+.nav__link {
+  color: #424242;
+}
+
+/*  awarsd*/
+.award {
+  margin-bottom: 140px;
+}
+
+.award__item {
+  display: flex;
+  padding-bottom: 50px;
+  border-bottom:  1px solid #AEA38B;
+}
+
+.award__item:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.award__item-descr {
+  width: 850px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* justify-content: space-between; */
+}
+
+.award__item-heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: calc(14px + 14 * (100vw / 1190));
+  line-height: 1.2;
+  font-weight: 400;
+  color: #424242;
+}
+
+.award__item-info {
+  margin-top: 0;
+  margin-bottom: 113px;
+  font-size: calc(12px + 6 * (100vw / 1190));
+  line-height: 1.2;
+  font-weight: 400;
+  color: #424242;
+}
+
+.award__item-photo {
+  height: 250px;
+  width: 30%;
+  margin-right: 40px;
+}
+
+.award__item-photo_1 {
+  background: url('../img/award/1.jpg') center center no-repeat;
+}
+
+.award__item-photo_2 {
+  background: url('../img/award/2.jpg') center center no-repeat;
+}
+
+.award__item-photo_3 {
+  background: url('../img/award/3.jpg') center center no-repeat;
+}
+
+.award__item-photo_4 {
+  background: url('../img/award/4.jpg') center center no-repeat;
+}
+
+.award__item-photo_5 {
+  background: url('../img/award/5.jpg') center center no-repeat;
+}
+
+.award__item-photo_6 {
+  background: url('../img/award/6.jpg') center center no-repeat;
+}
+
+.award__item-btn {
+  padding-right: 90px;
+  padding-left: 90px;
+}
+
+@media (max-width: 767px) {
+  .nav__link {
+    color: #ffffff;
+  }
+
+  .award {
+    margin-bottom: 100px;
+  }
+
+  .award__item {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 39px;
+  }
+
+  .award__item-descr {
+    width: 90%;
+    align-items: flex-start;
+  }
+
+  .award__item:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+  .award__item-photo {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+
+  .award__item-heading {
+    max-width: 80%;
+    font-size: 18px;
+    text-align: start;
+    margin-bottom: 10px;
+  }
+
+  .award__item-info {
+    width: 80%;
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: start;
+  }
+
+  .award__item-btn {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+  }
+}

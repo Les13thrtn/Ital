@@ -1,0 +1,1452 @@
+/* header */
+.nav__link {
+  color: #424242;
+}
+
+/* project */
+.project__container {
+  margin-bottom: 140px;
+}
+
+.project__heading {
+  margin-bottom: 50px;
+}
+
+.project__pic {
+  margin-bottom: 60px;
+}
+
+.project__list {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ptoject__item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 10px;
+  width: 360px;
+  border-top: 1px solid #AEA38B;
+  z-index: 5;
+}
+
+.decor {
+  position: absolute;
+  content: '';
+  height: 8px;
+  width: 8px;
+  background-color: #D8B152;
+  border-radius: 50%;
+  border: 1px solid #D8B152;
+}
+
+.ptoject__item_line {
+  position: relative;
+  border: none;
+}
+
+.ptoject__item_line-2 {
+  position: relative;
+  border: none;
+}
+
+.ptoject__item_line::before {
+  position: absolute;
+  display: block;
+  content: '';
+  width: 360px;
+  height: 222px;
+  top: 0;
+  right: 0;
+  border-right: 1px solid #AEA38B;
+  border-top: 1px solid #AEA38B;
+  border-bottom: 1px solid #AEA38B;  
+  border-right: #ffffff;
+  border-radius: 0 500em 500em 0; 
+}
+
+.decor {
+  position: absolute;
+  height: 8px;
+  width: 8px;
+  top: -3px;
+  background-color: #D8B152;
+  border-radius: 50%;
+}
+
+.decor::before {
+  position: absolute;
+  content: '';
+  height: 20px;
+  width: 20px;
+  top: -8px;
+  left: -8px;
+  border: 1px solid #D8B152;
+  border-radius: 50%;
+}
+
+.project__top,
+.project__bottom {
+  height: 223px;
+}
+
+.project__item-date {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #424242;
+}
+
+.project__item-info {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #424242;
+  text-align: center;
+}
+
+.project__block-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.project__block-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 100px;
+  font-size: calc(0px + 18 * (100vw / 1190));
+  line-height: 1.2;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+  background-color: #AEA38B;
+}
+
+.ptoject__info {
+  display: flex;
+}
+
+.project__photo {
+  display: flex;
+  flex: 1 1 45%;
+  gap: 40px;
+  margin-right: 40px;
+}
+
+.project__info-pic {
+  width: 46%;
+  height: 380px;
+}
+
+.project__info-text {
+  max-width: 45%;
+}
+
+/* hall */
+.hall {
+  margin-bottom: 50px;
+}
+
+.hall__container {
+  position: relative;
+}
+
+.hall__pic-abs {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.hall__top {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 50px;
+}
+
+.hall__top-pic {
+  margin-right: 40px;
+}
+
+.hall__top-info {
+  width: 46%;
+  margin: 0;
+  font-size: calc(0px + 18 * (100vw / 1190));
+  line-height: 1.5;
+  font-weight: 400;
+  color: #424242;
+}
+
+.hall__bottom-info { 
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #424242;
+}
+
+.hall__bottom-info:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+/* backphoto */
+.backphotos__container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.backphoto {
+  height: calc(0px + 600 * (100vw / 1190));
+  margin-bottom: 120px;
+  background: url('../img/portfolio/backphoto/backphoto.jpg') top left no-repeat;
+  background-size: contain;
+}
+
+/* livingroom */
+.livingroom {
+  margin-bottom: 50px;
+}
+
+.livingroom__heading {
+  margin-bottom: 50px;
+}
+
+.livingroom__top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.livingroom__top-pic {
+  width: 50%;
+  margin-right: 40px;
+}
+
+.livingroom__dates {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  border-top: 1px solid #503D2B;
+}
+
+.livingroom__dates-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.livingroom__dates-item::before {
+  position: absolute;
+  content: '';
+  height: 8px;
+  width: 8px;
+  top: -35px;
+  background-color: #D8B152;
+  border-radius: 50%;
+}
+
+.livingroom__dates-item::after {
+  position: absolute;
+  content: '';
+  height: 20px;
+  width: 20px;
+  top: -42px;
+  border-radius: 50%;
+  border: 1px solid #D8B152;
+}
+
+.livingroom__dates-item_date {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 36px;
+  line-height: 1.5;
+  font-weight: 600;
+  color: #424242;
+}
+
+.livingroom__dates-item-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #424242;
+  text-align: center;
+}
+
+/* livingroom__bottom */
+.livingroom__bottom {
+  margin-bottom: 140px;
+}
+
+.livingroom__bottom-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.livingroom__bottom-photo {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.livingroom__bottom-left,
+.livingroom__bottom-middle {
+  width: 250px;
+  height: 280px;
+  margin-right: 10px;
+}
+
+.livingroom__bottom-middle {
+  align-self: flex-end;
+}
+
+.livingroom__bottom-right {
+  width: 45%;
+}
+
+.livingroom__bottom-text {
+  font-size: calc(0px + 18 * (100vw / 1190))
+}
+
+/* kitchen */
+.kitchen {
+  margin-bottom: 40px;
+}
+.kitchen__container {
+  position: relative;
+}
+
+.kitchen__heading {
+  margin-bottom: 4px;
+}
+
+.kitchen__top-info {
+  width: 47%;
+}
+
+.kitchen__top-pic {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 47%;
+}
+
+/* kitchen__bottom */
+.kitchen__bottom {
+  margin-bottom: 120px;
+}
+
+.kitchen__bottom-container {
+  display: flex;
+  align-items: center;
+}
+
+.kitchen__bottom-pic {
+  margin-right: 40px;
+}
+
+.kitchen__bottom-info {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #424242;
+}
+
+/* speach */
+.speach {
+  margin-bottom: 50px;
+}
+
+.speach__text {
+  padding: 130px 220px;
+}
+
+/* diningroom */
+
+.diningroom {
+  margin-bottom: 140px;
+}
+
+.diningroom__container {
+  position: relative;
+}
+
+.diningroom__heading {
+  margin-bottom: 40px;
+}
+
+.diningroom__right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%;
+  height: 470px;
+}
+
+.diningroom__text {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #424242;
+  width: 64%;
+}
+
+.diningroom__content-left_pic {
+  width: 30%;
+  height: 260px;
+}
+
+.diningroom__content-left_pic:not(:last-child) {
+  margin-right: 40px;
+}
+
+/* hall_2 */
+.hall_2 {
+  margin-bottom: 50px;
+}
+
+.hall_2__container {
+  display: flex;
+  gap: 40px;
+}
+
+.hall_2__left {
+  width: 30%;
+  height: 380px;
+}
+
+.hall_2__heading {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  width: 30%;
+}
+
+.hall_2-middle {
+  width: 30%;
+}
+
+.hall_2__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* backphoto__2 */
+
+.backphoto__2 {
+  height: calc(0px + 600 * (100vw / 1190));
+  margin-bottom: 120px;
+  background: url('../img/portfolio/backphoto/backphoto.jpg') top left no-repeat;
+  background-size: contain;
+}
+
+
+/* bedroom */
+.bedroom {
+  margin: 140px;
+}
+
+.bedroom__container {
+  display: flex;
+}
+
+.bedroom__left {
+  width: 30%;
+  margin-right: 40px;
+}
+
+.bedroom__heading {
+  margin-bottom: 40px;
+}
+
+.bedroom__text {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #424242;
+}
+
+.bedroom__photo-left {
+  margin-right: 35px;
+  width: 45%;
+}
+
+.bedroom__photo-right {
+  width: 45%;
+}
+
+/* bathroom */
+
+.bathroom {
+  margin-bottom: 120px;
+}
+
+.bathroom__container {
+  display: flex;
+  align-items: center;
+}
+
+.bathroom__left { 
+  width: 39%;
+  margin-right: 40px;
+}
+
+.bathroom__heading {
+  margin-bottom: 20px;
+}
+
+.bathroom__text {
+  margin-top: 0;
+  margin-right: 40px;
+  margin-bottom: 0;
+  width: 100%;
+  font-size: calc(8px + 10 * (100vw / 1190));
+  line-height: 1.5;
+  font-weight: 400;
+  color: #424242;
+}
+
+.bathroom__middle {
+  margin-right: 40px;
+  width: 30%;
+}
+
+.bathroom__right {
+  width: 22%;
+}
+
+/* bedrooms */
+
+.bedrooms {
+  margin-bottom: 140px;
+}
+
+.bedrooms__heading {
+  margin-bottom: 40px;
+}
+
+.bedrooms__text {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;
+  color:#424242;
+}
+
+.bedrooms__photos-top {
+  display: flex;
+  gap: calc(10px + 40 * (100vw / 1190));
+  width: 100%;
+  margin-bottom: calc(10px + 40 * (100vw / 1190));
+}
+
+.bedrooms__photo {
+  width: 30%;
+}
+
+.bedrooms__photos-bottom {
+  display: flex;
+  gap: calc(10px + 40 * (100vw / 1190));;
+  width: 100%;
+}
+
+.bedrooms__photos-bottom {
+  width: 47.5%;
+}
+
+/* bathrooms */
+.bathrooms {
+  margin-bottom: 140px;
+}
+
+.bathrooms__container {
+  display: flex;
+  align-items: center;
+}
+
+.bathrooms__pics {
+  display: flex;
+  gap: calc(10px + 30 * (100vw / 1190));
+  width: 50%;
+  margin-right: 40px;
+}
+
+
+.bathrooms__pic {
+  width: 45%;
+}
+
+.bathrooms__right {
+  width: 45%;
+}
+
+.bathrooms__heading {
+  margin-bottom: 40px;
+}
+
+/* conclusion */
+.conclusion {
+  margin-bottom: 120px;
+}
+
+.conclusion__top {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.conclusion__info{
+  max-width: 740px;
+  margin-right: 40px;
+}
+
+.conclusion__right {
+  display: flex;
+  flex-direction: column;
+}
+
+.conclusion__right-bottom {
+  width: 360px;
+  height: 195px;
+}
+
+.conclusion__right-top {
+  margin-bottom: 40px;
+}
+
+.conclusion__photo-top,
+.conclusion__photo-bottom {
+  display: flex;
+  gap: calc(10px + 40 * (100vw / 1190));
+  width: 100%;
+}
+
+.conclusion__photo-top {
+  margin-bottom: calc(10px + 40 * (100vw / 1190));
+}
+
+.conclusion__pic {
+  width: 30%;
+}
+
+
+.conclusion__pic-bottom {
+  width: 47.5%;
+}
+
+/* list */
+.list {
+  margin-bottom: 140px;
+}
+
+.list__heading {
+  margin-bottom: 40px;
+}
+
+.list__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: calc(10px + 30 * (100vw / 1190));
+}
+
+.list__list-item {
+  position: relative;
+  width: 21%;
+}
+
+.list__list-item::before {
+  position: absolute;
+  content: '';
+  width: 76%;
+  height: 1px;
+  background-color: #503D2B;
+  top: 22px;
+  right: 0;
+}
+
+.list__list-item:nth-child(4n) {
+  margin-right: 0;
+}
+
+.listlist__list-item_nomber {
+  margin-top: 0;
+  margin-bottom: 13px;
+  font-size: 28px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #D8B152;
+}
+
+.list__list-item-text {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #424242;
+}
+
+@media (max-width: 1020px) {
+    .project__top,
+    .project__bottom {
+      height: 180px;
+    }
+
+    .project__item-info {
+      font-size: 12px;
+    }
+
+    .ptoject__item_line::before {
+      width: 360px;
+      height: 180px;
+    }
+
+    .ptoject__item_line-2::before {
+      width: 270px;
+    }
+    
+    .project__photo {
+      display: flex;
+      flex: 1 1 40%;
+      gap: 40px;
+      margin-right: 40px;
+    }
+    
+    .project__info-pic {
+      width: 260px;;
+      height: 380px;
+    }
+
+    .project__info-pic:last-child {
+      display: none;
+    }
+    
+    .project__info-text {
+      max-width: 60%;
+    }    
+    
+    .hall__top {
+      flex-direction: column;
+      align-items:  flex-start;
+      margin-bottom: 50px;
+    }
+    
+    .hall__top-info {
+      width: 100%;
+      margin-top: 40px;
+      font-size: 18px;
+    }
+
+    .hall__photo {
+      flex: 1 1 40%;
+      gap: 40px;
+      margin-right: 40px;
+    }
+
+    .hall__pic-abs,
+    .hall__top-pic {
+      width: 300px;
+      height: 380px;
+    }
+
+    .livingroom__bottom-container {
+      flex-flow: column-reverse;
+      align-items: center;
+    }
+
+    .livingroom__bottom-right {
+      width: 100%;
+      margin-bottom: 20px;
+      list-style: none;
+    }
+
+    .livingroom__bottom-left {
+      margin-right: 0;
+      height: auto;
+      width: 45%;
+    }
+  
+    .livingroom__bottom-middle {
+      margin-right: 0;
+      height: auto;
+      width: 45%;
+    }
+
+    .livingroom__bottom-photo {
+      width: 100%;
+      justify-content: center;
+      gap: 50px;
+      margin-bottom: 30px;
+    }
+
+    .diningroom__right {
+      display: none;
+    }
+
+    .diningroom__text {
+      width: 100%;
+    }
+
+    .diningroom__photo {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      width: 100%;
+    }
+
+    .diningroom__content-left_pic {
+      width: 45%;
+      height: auto; 
+    }
+
+    .diningroom__content-left_pic:not(:last-child) {
+      margin: 0;
+    }
+    
+    .hall_2__left {
+      width: 25%;
+      height: 230px;
+    }
+    
+    .hall_2-middle {
+      width: 50%;
+    }
+
+    .hall_2__text { 
+      font-size: 12px;
+    }
+
+    .bedroom {
+      margin: 0;
+      margin-bottom: 40px;
+    }
+
+    .bedroom__left {
+      display: none;
+    }
+    
+    .bedroom__photo {
+      display: flex; 
+      justify-content: space-between;
+    }
+
+    /* bathrooms */
+    .bathrooms {
+      margin-bottom: 60px;
+    }
+
+    .bathrooms__container {
+      flex-direction: column-reverse;
+    }
+
+    .bathrooms__right {
+      width: 100%;
+    }
+
+    .bathrooms__pics {
+      justify-content: center;
+      gap: 50px;
+      margin-right: 0;
+      width: 100%;
+    }
+
+
+    .bathrooms__right {
+      margin-bottom: 40px;
+    }  
+
+    .list__list-item {
+      width: 30%;
+    }
+}
+
+@media(max-width: 767px) {
+  .list__text {
+    list-style: none;
+  }
+
+  .nav__link {
+    color: #ffffff;
+  }
+
+  .project__container {
+    margin-bottom: 40px;
+  }
+
+  .project__pic {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 30px;
+  }
+
+  .project__top {
+    height: 100%;
+  }
+
+  .project__bottom {
+    height: 100%;
+  }
+
+  .project__list {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 19px;
+    padding: 0;
+  }
+
+  .ptoject__item {
+    height: 112px;
+    width: 100%;
+    margin: 0;
+    border: none;
+    align-items: flex-start;
+  }
+
+  .ptoject__item_line::before {
+    width: 1px;
+    height: 445px;
+    top: -205px;
+    left: -19px;
+    background-color: #424242;
+  }
+
+  .decor {
+    height: 4.8px;
+    width: 4.8px;
+    top: 15px;
+    left: -21px;
+  }
+  
+  .decor::before {
+    height: 12px;
+    width: 12px;
+    top: -6px;
+    left: -6px;
+  }
+
+  .project__item-date {
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .project__item-info {
+    font-size: 14px;
+    text-align: start;
+  }
+
+  .project__block-list {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .project__block-item {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+
+  .project__block-item:last-child {
+    margin-bottom: 40px;
+  }
+
+  .project__info-pic:last-child {
+    display: block;
+  }
+
+  .ptoject__info {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+
+  .project__info-text {
+    margin-bottom: 30px;
+    max-width: 100%;
+  }
+
+  .project__photo {
+    justify-content: center;
+    width: 100%;
+    gap: 40px;
+    margin-right: 0;
+  }
+
+  .project__info-pic  {
+   height: auto;
+    width: 45%;
+    margin-right: 0;
+  }
+  /* hall */
+  .hall__top {
+    flex-flow:column-reverse;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .hall__top-info {
+    margin-top: 0;
+  }
+
+  .hall__photo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 40px;
+    margin-bottom: 30px;
+    margin-right: 0;
+  }
+
+  .hall__pic-abs,
+  .hall__top-pic {
+    height: auto;
+    width: 45%;
+    margin-right: 0;
+  }
+
+  .hall__pic-abs {
+    position: static;
+  }
+
+  .hall__top-info {
+    width: 100%;
+  }
+
+  .hall__top-info,
+  .hall__bottom-info {
+    font-size: 14px;
+  }
+
+  .hall__top-info {
+    margin-bottom: 30px;
+  }
+
+  /* background */
+
+  .backphoto {
+    margin-bottom: 40px;
+  }
+
+  /* livingroom */ 
+  .livingroom {
+    margin-bottom: 80px;
+  }
+
+  .livingroom__heading {
+    margin-bottom: 20px;
+  }
+
+  .livingroom__top {
+    flex-flow: column-reverse;
+    margin-bottom: 0;
+  }
+
+  .livingroom__top-info {
+    margin-bottom: 20px;
+  }
+
+  .livingroom__top-pic {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .livingroom__dates {
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+    padding-top: 0;
+    padding-left: 19px;
+    border-top: none;
+    border-left: 1px solid #AEA38B;
+  }
+
+  .livingroom__dates-item  {
+    align-items: flex-start;
+  }
+
+  .livingroom__dates-item::before {
+    height: 4.8px;
+    width: 4.8px;
+    top: 10px;
+    left: -22px;
+  }
+  
+  .livingroom__dates-item::after {
+    height: 12px;
+    width: 12px;
+    top: 5px;
+    left: -27px;
+  }
+
+  .livingroom__dates-item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .livingroom__dates-item_date {
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+
+  .livingroom__dates-item-text  {
+    font-size: 14px;
+    text-align: start;
+  }
+
+  .speach__text {
+    padding: 90px 10px 98px 10px;
+    margin-bottom: 40px;
+  }
+
+  .livingroom__bottom {
+    margin-bottom: 40px;
+  }
+
+  .livingroom__bottom-text {
+    font-size: 14px;
+  }
+
+  .livingroom__bottom-photo {
+    justify-content: center;
+  }
+
+  /* kitchen */
+
+  .kitchen__top {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .kitchen__heading {
+    margin-bottom: 20px;
+  }
+
+  .kitchen__top-info  {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .kitchen__top-pic {
+    position: static;
+    width: 100%;
+  }
+
+  .kitchen__bottom-container {
+    flex-flow: column-reverse;
+    align-items: flex-start;
+  }
+
+  .kitchen__bottom {
+    margin-bottom: 40px;
+  }
+
+  .kitchen__bottom-info {
+    margin-bottom: 20px;
+  }
+
+  .kitchen__bottom-pic {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .speach  {
+    margin-bottom: 40px;
+  }
+
+  /* diningroom */
+
+  .diningroom {
+    margin-bottom: 40px;
+  }
+
+  .diningroom__heading {
+    margin-bottom: 20px;
+  }
+
+  .diningroom__conent {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+
+  .diningroom__text {
+    width: 100%;
+  }
+
+ .diningroom__photo {
+    display: none;
+  } 
+
+  .hall_2__heading {
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .hall_2__info {
+    align-items: flex-start;
+  }
+
+  .hall_2__left {
+    display: none;
+  }
+
+  .hall_2__text-item {
+    text-align: start;
+  }
+
+  .hall_2__text {
+    font-size: 18px;
+  }
+
+  /* backphoro__2 */
+
+  .backphoto__2 {
+    margin-bottom: 40px;
+  }
+
+  /* bathroom */
+
+    .bathroom {
+      margin-bottom: 40px;
+    }
+
+    .bathroom__container {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .bathroom__left { 
+      width: 100%;
+      margin-bottom: 20px;
+      margin-right: 0;
+    }
+
+    .bathroom__text {
+      font-size: 18px;
+    }
+
+    .bathroom__middle {
+      margin-right: 0;
+      margin-bottom: 40px;
+      width: 100%;
+    }
+
+    .bathroom__right {
+      display: none;
+    }
+
+    .conclusion__info {
+      margin-right: 0;
+    }
+
+    .conclusion__right {
+      display: none;
+    }
+
+    .list__list-item {
+      width: 45%;
+    }
+
+    .bedrooms,
+    .conclusion,
+    .list {
+      margin-bottom: 40px;
+    }
+}
+@media(max-width: 375px) {
+
+  /* backphoto */
+  .backphoto {
+
+    margin-bottom: 40px;
+  }
+  /* livingroom */ 
+  .livingroom {
+    margin-bottom: 80px;
+  }
+
+  .livingroom__heading {
+    margin-bottom: 20px;
+  }
+
+  .livingroom__top {
+    flex-flow: column-reverse;
+    margin-bottom: 0;
+  }
+
+  .livingroom__top-info {
+    margin-bottom: 20px;
+  }
+
+  .livingroom__top-pic {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .livingroom__dates {
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+  }
+
+  .livingroom__dates-item  {
+    align-items: flex-start;
+  }
+
+  .livingroom__dates-item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .livingroom__dates-item_date {
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+
+  .livingroom__dates-item-text  {
+    font-size: 14px;
+    text-align: start;
+  }
+
+  .speach__text {
+    padding: 90px 10px 98px 10px;
+    margin-bottom: 40px;
+  }
+
+  .livingroom__bottom-container {
+    flex-flow: column-reverse;
+  }
+
+  .livingroom__bottom-photo {
+    display: flex;
+  }
+
+  .livingroom__bottom-right {
+    margin-bottom: 20px;
+  }
+
+  .livingroom__bottom-middle {
+    margin-right: 0;
+  }
+
+  /* kitchen */
+
+  .kitchen__top {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .kitchen__heading {
+    margin-bottom: 20px;
+  }
+
+  .kitchen__top-info  {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .kitchen__top-pic {
+    position: static;
+  }
+
+  .kitchen__bottom-container {
+    flex-flow: column-reverse;
+    align-items: flex-start;
+  }
+
+
+  .speach  {
+    margin-bottom: 40px;
+  }
+
+  /* diningroom */
+
+  .diningroom__heading {
+    margin-bottom: 20px;
+  }
+
+  .diningroom__conent {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+
+  .diningroom__text {
+    width: 100%;
+  }
+
+  .diningroom__right{
+    position: static;
+    width: 100%;
+    height: 300px;
+  }
+
+  .diningroom__photo {
+    display: none;
+  }  
+
+  .list__list-item {
+    width: 100%;
+    font-size: 18px;
+}
+
+@media (min-width: 1190px) {
+  .project__block-item {
+    font-size: 18px;
+  }
+
+  .ptoject__item_line::after {
+    width: 250px;
+  }
+
+  .hall__top-info {
+    font-size: 18px;
+  }
+
+  .livingroom__bottom-text {
+    font-size: 18px;
+  }
+
+  .bathroom__heading {
+    font-size: 48px;
+  }
+  
+  .bathroom__text {
+    font-size: 18px;
+  }
+
+  .backphoto,
+  .backphoto__2 {
+     height: 700px;
+  }
+
+  
+  .bedrooms__photos-top {
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+
+  .bedrooms__photos-bottom {
+    gap: 40px;
+  }
+
+  .hall__pic-abs,
+  .hall__top-pic,
+  .project__info-pic {
+    height: 260px;
+  }
+}}

@@ -1,0 +1,122 @@
+/* header */
+.nav__link {
+  color: #424242;
+}
+/* publications */
+.publications__container {
+  margin-bottom: 140px;
+}
+
+.publications__heading {
+  margin-bottom: 90px;
+}
+
+.publications__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.publications__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 47%;
+  border-bottom: 1px solid #AEA38B;
+}
+
+.publications__item:nth-child(odd) {
+  border-right: 1px solid #AEA38B;
+  padding: 40px 40px 50px 0px;
+}
+
+.publications__item:nth-child(even) {
+  padding: 40px 0px 50px 40px;
+}
+
+.publications__item-heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: calc(10px + 18 * (100vw / 1190));
+  line-height: 1.2;
+  font-weight: 400;
+  color: #424242;
+}
+
+.publications__item-info {
+  margin-top: 0;
+  margin-bottom: 30;
+  font-size: calc(10px + 8 * (100vw / 1190));
+  line-height: 1.2;
+  font-weight: 400;
+  color: #424242;
+}
+
+.publications__item-btn {
+  width: 47%;
+  padding-right: 0;
+  padding-left: 0;
+  text-align: center;
+}
+
+@media(max-width: 767px) {
+  .nav__link {
+    color: #ffffff;
+  }
+
+  .publications__container {
+    margin-bottom: 80px;
+  }
+  .publications__heading {
+    margin-bottom: 30px;
+  }
+
+  .publications__list {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .publications__item  {
+    width: 100%;
+    padding: 0px 0px 40px 0px;
+  }
+
+  .publications__item:nth-child(odd) {
+    border-right: none;
+    padding: 30px 0px 40px 0px;
+  }  
+
+  .publications__item:nth-child(even) {
+    padding: 30px 0px 40px 0px;
+  }
+
+  .publications__item:first-child {
+    padding-top: 0;
+  }
+
+  .publications__item:last-child {
+    border: none;
+  }
+
+  .publications__item-heading {
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .publications__item-info {
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .publications__item-btn {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1190px) {
+  .publications__item-heading {
+    font-size: 28px;
+  }
+}
